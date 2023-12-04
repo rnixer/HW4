@@ -9,16 +9,24 @@ body {
 }
 
 header {
-    /* background-color: rgb(223, 217, 217); */
+    background-color: rgb(223, 217, 217);
     display: flex;
     justify-content: flex-end;
-    gap: 40px;
+    align-items: flex-start;
     padding: 20px 80px;
     font-weight: bold;
     font-size: 20px;
     height: 170px;
 
 }
+
+a {
+    padding: 20px;
+}
+a:hover {
+    color: white;
+    background-color: black;
+} 
 
 h1 {
     font-size: 40px;
