@@ -218,3 +218,22 @@ h2 {
 }
 
 
+/* https://fontawesome.com/icons/instagram?f=brands&s=solid */
+/* https://fontawesome.com/icons/twitter?f=brands&s=solid */
+/* https://fontawesome.com/icons/linkedin?f=brands&s=solid */
+footer {
+    display: flex;
+    /* background-color: aqua; */
+    height: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.copy {
+    display: flex;
+    /* background-color: aqua; */
+    height: 80px;
+    justify-content: center;
+}
