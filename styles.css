@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: rgb(223, 217, 217);
+    /* background-color: rgb(223, 217, 217); */
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
