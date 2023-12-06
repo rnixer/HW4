@@ -8,6 +8,10 @@ body {
     font-size: 18px;
 }
 
+.menu {
+    display: none;
+}
+
 header {
     /* background-color: rgb(223, 217, 217); */
     display: flex;
@@ -16,7 +20,7 @@ header {
     padding: 20px 80px;
     font-weight: bold;
     font-size: 20px;
-    height: 170px;
+    min-height: 170px;
 
 }
 
@@ -237,3 +241,160 @@ footer {
     height: 80px;
     justify-content: center;
 }
+
+@media(max-width: 600px) {
+    header a {
+        display: none;
+
+    }
+
+    header {
+        /* background: red; */
+        width: 100%;
+        
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* background: red; */
+    }
+
+    .menu img {
+        width: 40px;
+
+    }
+
+    .line {
+        /* border-top: 2px solid black; */
+        width: 50px;
+        /* background-color: red; */
+        
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* background-color: aqua; */
+        align-items: center;
+        font-size: 0.8em;
+        width: 90%;
+    }
+
+    .b_box1 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .box2 {
+        display: flex;
+        /* background: blue;    */
+        align-items: center;
+    }
+
+
+    .profile img {
+        /* border: solid; */
+        position: relative;
+        left: 50px;
+    } 
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .rec {
+        
+        display: flex;
+        flex-direction: column;
+        /* background: red; */
+        width: 100%;
+        min-height: 700px;
+    }    
+
+    .b_box3_1 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .b_box3_1 div {
+        display: none;
+
+    }
+
+    .b_box3_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .g_box3_1 {
+        width: 90%;
+    }
+    .g_box3_2 {
+        width: 90%;
+    }
+    
+    .box4 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .box5 {
+        display: flex;
+        justify-content: center;
+        min-height: 450px;
+        /* background-color: blue; */
+    }
+    .rec2 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+   
+    
+    .b_box5
+    {
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 100;
+    } 
+
+    .g_box5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        /* background: red; */
+
+    }
+
+    hr {
+        display: initial;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+
